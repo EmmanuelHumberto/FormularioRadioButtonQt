@@ -15,6 +15,11 @@ public:
     FormularioRadioButton(QWidget *parent = nullptr);
     ~FormularioRadioButton();
 
+private slots:
+    void on_btn_resposta_clicked();
+
+
+
 private:
     Ui::FormularioRadioButton *ui;
 };
